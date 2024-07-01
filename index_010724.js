@@ -1,7 +1,9 @@
+window.flutter_inappwebview.callHandler('setJsFileVersion', '010724');
+window.flutter_inappwebview.callHandler('showSnackBar', 'расширения загружены');
+window.flutter_inappwebview.callHandler('setUserLogin', 'test');
 if(!window.AppInventor){
   window.AppInventor = {
     setWebViewString: function(...args){
-      if(!window.flutter_inappwebview?.callHandler){return}
       return window.flutter_inappwebview.callHandler('setWebViewString', ...args)
     },
     getWebViewString: function(...args){
