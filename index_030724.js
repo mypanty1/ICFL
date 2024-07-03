@@ -1,5 +1,5 @@
 window.flutter_inappwebview.callHandler('setJsFileVersion', '030724');
-window.flutter_inappwebview.callHandler('showSnackBar', 'расширения загружены', {a: 128, r: 1, g: 117, b: 194});
+window.flutter_inappwebview.callHandler('showSnackBar', 'расширения загружены', '80d5700d');
 window.flutter_inappwebview.callHandler('setUserLogin', '');
 
 if(!window.AppInventor){
