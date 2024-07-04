@@ -1,5 +1,5 @@
 window.flutter_inappwebview.callHandler('setJsFileVersion', '050724');
-window.flutter_inappwebview.callHandler('showSnackBar', '1 🍋 есть, можно и поесть', 'info');
+window.flutter_inappwebview.callHandler('showSnackBar', '🍋 есть, можно и поесть', 'info');
 if(app){
   window.flutter_inappwebview.callHandler('setUserLogin', app.$store.getters.userLogin);
 };
