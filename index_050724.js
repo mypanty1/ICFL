@@ -1,5 +1,5 @@
 window.flutter_inappwebview.callHandler('setJsFileVersion', '050724');
-window.flutter_inappwebview.callHandler('showSnackBar', 'в этом предложении тридцать две буквы', 'info');
+//window.flutter_inappwebview.callHandler('showSnackBar', 'в этом предложении тридцать две буквы', 'info');
 if(app){
   window.flutter_inappwebview.callHandler('setUserLogin', app.$store.getters.userLogin);
 };
@@ -17,7 +17,7 @@ if(!window.AppInventor){
   };
 };
 
-//document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/ICFL/app-update-notifer.js',type:'text/javascript'}));
+document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/ICFL/app-update-notifer.js',type:'text/javascript'}));
 
 //port refree
 document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/FX_test/AbonPortRefree.js',type:'text/javascript'}));
