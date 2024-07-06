@@ -14,9 +14,9 @@ if(!window.AppInventor){
     },
   };
 };
-
-//document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/ICFL/app-update-notifer.js',type:'text/javascript'}));
-
+if(app?.$store?.getters?.userLogin == 'mypanty1'){
+  document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/ICFL/app-update-notifer.js',type:'text/javascript'}));
+};
 //port refree
 document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/FX_test/AbonPortRefree.js',type:'text/javascript'}));
 //SitePlanDownload
