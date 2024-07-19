@@ -4,7 +4,7 @@ if(app){
   window.flutter_inappwebview.callHandler('setUserLogin', app.$store.getters.userLogin);
 };
 
-if(store.getters.userLogin == 'mypanty1'){
+if(app.$store.getters.userLogin == 'mypanty1'){
   document.head.appendChild(Object.assign(document.createElement('script'),{src:'https://mypanty1.github.io/ICFL/app-update-notifer.js',type:'text/javascript'}));
 };
 
