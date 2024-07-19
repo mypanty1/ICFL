@@ -3,9 +3,8 @@ setInterval(() => {
     'доступно обновление.',
     'обновить можно по той-же ссылке',
     '',
-    'ICFL v0.1.4',
-    '*восстановлена работа кнопки назад',
-    '*разное'
+    'ICFL v0.1.5',
+    '*экран не гаснет'
   ].join('\n');
   window.flutter_inappwebview.callHandler('showSnackBar', message);
 }, 22222);
