@@ -14,7 +14,7 @@ setInterval(() => {
       duration: 9999,
       messageText: 'доступно обновление ICFL v0.1.5',
       actionText: 'Download',
-      actionOnClick: store.dispatch('app/actionView', 'https://ping54.ru/shared/ICFL/app-release.apk'),
+      actionOnClick: window.open('https://ping54.ru/shared/ICFL/app-release.apk', '_blank'),
     });
   }else{
     app.$store.dispatch('toast/open',{
